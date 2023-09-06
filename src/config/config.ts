@@ -1,6 +1,6 @@
 export const Config = {
     OPEN_AI: {
-        api_key: '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',
+        api_key: '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',
     },
 
     MAGAZINE: {
