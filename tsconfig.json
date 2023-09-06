@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "lib": ["DOM", "ES2015", "ES2016", "ES2021"],
+        "strict": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false
+    },
+    "exclude": ["node_modules/", "**/*.spec.ts"],
+    "include": ["src/**/*", "src/*"]
+}

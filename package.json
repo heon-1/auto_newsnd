@@ -1,0 +1,41 @@
+{
+    "name": "auto_posting",
+    "version": "0.0.0",
+    "author": "beardfriend",
+    "scripts": {
+        "build": "tsc -p ./tsconfig.json",
+        "start": "pm2 start dist/index.js"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.22.10",
+        "@babel/preset-env": "^7.22.10",
+        "@types/jest": "^29.5.3",
+        "@types/node": "^20.4.10",
+        "@types/node-cron": "^3.0.8",
+        "@types/node-fetch": "^2.6.4",
+        "@types/xml2js": "^0.4.11",
+        "babel-jest": "^29.6.2",
+        "bun-types": "latest",
+        "jest": "^29.6.2",
+        "ts-jest": "^29.1.1"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "cheerio": "^1.0.0-rc.12",
+        "fast-xml-parser": "^4.2.7",
+        "mysql2": "^3.6.0",
+        "node-cron": "^3.0.2",
+        "nodemon": "^3.0.1",
+        "pm2": "^5.3.0",
+        "puppeteer": "^21.1.0",
+        "reflect-metadata": "^0.1.13",
+        "rss-parser": "^3.13.0",
+        "ts-node": "^10.9.1",
+        "typeorm": "^0.3.17",
+        "typeorm-naming-strategies": "^4.1.0",
+        "xml2js": "^0.6.2"
+    }
+}
